@@ -7,4 +7,4 @@ from rest_framework.generics import ListAPIView, CreateAPIView
 
 def home(request, format=None):
     data = {"name": "rajiv", "age": "22"}
-    return render(request, "./frontend/base.html")
+    return render(request, "base.html")
