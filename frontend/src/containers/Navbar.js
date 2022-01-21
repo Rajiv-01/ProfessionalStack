@@ -8,8 +8,8 @@ function Navbar() {
 			<div className='navbar'>
 				<Avatar src={'../static/images/Logo.svg'} />
 				<div className='two_links'>
-					<a href='#'>Tour</a>
-					<a href='#'>About Us</a>
+					<Link to=''>Tour</Link>
+					<Link to=''>About Us</Link>
 				</div>
 				<button className='theme_change'>Dark Mode</button>
 
