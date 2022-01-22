@@ -1,7 +1,7 @@
-import { Box } from '@mui/material';
 import React from 'react';
+import { Box } from '@mui/material';
 
-function MainContent() {
+function About() {
 	return (
 		<Box
 			component='div'
@@ -10,13 +10,10 @@ function MainContent() {
 				flexDirection: 'column',
 				justifyContent: 'center',
 				alignItems: 'center',
-				backdropFilter: 'blur(8px) saturate(112%)',
-				backgroundColor: 'rgba(197, 197, 197, 0.48)',
 			}}
-			p='30px'
 		>
-			<h1>Tour For Our Site</h1>
-			<img src='../../static/images/Logo.svg' />
+			<h1>About Us</h1>
+
 			<p>
 				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor
 				laudantium perspiciatis aut? Maxime culpa labore distinctio corporis,
@@ -40,4 +37,4 @@ function MainContent() {
 	);
 }
 
-export default MainContent;
+export default About;
