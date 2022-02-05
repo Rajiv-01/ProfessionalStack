@@ -56,14 +56,41 @@ body {
 .search_container {
 	flex: 0.9;
 }
+
 .search_bar {
-	padding: 5px;
+	padding: 10px;
 	margin: 0 10px;
+	border-radius: 5px;
+	background-color: rgba(70, 70, 70, 1);
+	color: white;
+	border: 1px solid rgba(182, 182, 182, 0.897);
 	width: -webkit-fill-available;
 }
+.search_bar:active {
+	border: 1px solid rgba(182, 182, 182, 0.897);
+}
 
-#channels {
+.channels {
 	margin-right: 10px;
+	color: crimson;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#join_button {
+	padding: 5px;
+	width: 60px;
+	border: none;
+	border-radius: 5px;
+	background-color: #f09433;
+	height: 36px;
+	color: white;
+	font-family: -webkit-pictograph;
+	cursor: pointer;
+}
+#join_button:active {
+	transform: scale(0.95);
 }
 
 /*  Social Links */
